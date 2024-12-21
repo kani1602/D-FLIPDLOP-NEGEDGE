@@ -1,16 +1,17 @@
-# D-FLIPDLOP-NEGEDGE
+# EXP-8 D-FLIPDLOP-NEGEDGE
+Developed by:Kanishka.v  RegisterNumber:24003362
 
-**AIM:**
+# **AIM:**
 
 To implement  D flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+# **SOFTWARE REQUIRED:**
 
 Quartus prime
 
-**THEORY**
+# **THEORY:**
 
-**D Flip-Flop**
+# **D Flip-Flop:**
 
 D flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, D latch operates with enable signal. That means, the output of D flip-flop is insensitive to the changes in the input, D except for active transition of the clock signal. The circuit diagram of D flip-flop is shown in the following figure.
 
@@ -26,19 +27,27 @@ Therefore, D flip-flop always Hold the information, which is available on data i
 
 Next state of D flip-flop is always equal to data input, D for every positive transition of the clock signal. Hence, D flip-flops can be used in registers, shift registers and some of the counters.
 
-**Procedure**
+# **Procedure:**
+```
+1.Type the program in Quartus software.
 
-/* write all the steps invloved */
+2.Compile and run the program.
 
-**PROGRAM**
+3.Generate the RTL schematic and save the logic diagram.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+4.Create nodes for inputs and outputs to generate the timing diagram.
 
-**RTL LOGIC FOR FLIPFLOPS**
+5.For different input combinations generate the timing diagram.
+```
 
+# **PROGRAM:**
+![exp 8 code](https://github.com/user-attachments/assets/b1ee75d9-17e1-460d-baaf-4cfa739bbc91)
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+# **RTL LOGIC FOR FLIPFLOPS:**
+![exp 8 ld](https://github.com/user-attachments/assets/10778121-74d0-487b-b0f9-6a7be702d877)
 
+# **TIMING DIGRAMS FOR FLIP FLOPS:**
+![exp 8 wf](https://github.com/user-attachments/assets/9a1e31ef-b297-40fa-9ae4-55e162234488)
 
-**RESULTS**
+# **RESULTS:**
+  Thus the implemention of D flipflop and validating their functionality using their functional tables in quartus II using verilog program.
